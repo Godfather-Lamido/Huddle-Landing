@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(257, 40%, 49%) url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding: 20px 30px ;
+}
+
+.title img {
+    width: 180px;
+}
+
+.main-section {
+    display: flex;
+    margin-top: 60px;
+}
+
+.main-section .illustration-mockups {
+    width: 50%;
+}
+
+.main-section .illustration-mockups img {
+    width: 100%;
+}
+
+.main-content  {
+    color: #fff;
+    padding: 40px;
+
+}
+
+.main-content h2 {
+    font-size: 32px;
+}
+
+.main-content p {
+    margin-block: 20px ;
+}
+
+.main-content button {
+    border-radius: 25px;
+    padding: 15px 50px;
+    border: none;
+}
+
+.main-content button:hover {
+    background-color: #ffffff;
+    border: 3px solid #000;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.social {
+    padding: 10px;
+}
+
+
+/**Responsive Designs
+
+Mobile Phones: max-width:540px, min-width:320px
+
+*/
+
+/*--- T ---*/
+@media screen and (max-width:375px) {
+     .main-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     }    
+}
+
+
+
